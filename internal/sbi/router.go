@@ -50,7 +50,7 @@ func newRouter(s *Server) *gin.Engine {
 
 	saoGroup := router.Group("/sao")
 	applyRoutes(saoGroup, s.getSAORoute())
-	
+
 	return router
 }
 
